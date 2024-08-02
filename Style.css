@@ -1,0 +1,28 @@
+.right-sidebar {
+  background-color: rgb(8, 14, 39);
+  padding: 10px 10px 15px 20px;
+  width: 25%;
+  float: right;
+  margin-right: 20px;
+}
+
+h3 {
+  color: rgb(231, 203, 77);
+  font-size: 25px;
+  font-weight: 500;
+}
+h4 {
+  font-size: 18px;
+}
+p {
+  font-size: 12px;
+}
+h4,
+p {
+  color: white;
+}
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
