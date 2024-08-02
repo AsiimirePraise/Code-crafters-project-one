@@ -1,3 +1,4 @@
+/* THE HIGHLIGHT CARDS STARTS HERE */
 * {
   margin: 0;
   padding: 0;
@@ -45,7 +46,7 @@
   line-height: 40px;
   font-size: 15px;
 }
-
+/* media queries for HIGHLIGHT CARDS */
 @media screen and (min-width: 1200px) {
   .itemcard {
     display: flex;
@@ -77,3 +78,4 @@
     font-size: 17px;
   }
 }
+/* HIGHLIGHT CARDS ENDS HERE */
