@@ -14,27 +14,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
-
-    <link
-      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap"
       rel="stylesheet"
     />
 
     <title>code crafters project one</title>
-    <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-    <!--Start of header section-->
     <header>
-
-      <div class="container-f">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg">
           <div class="container-fluid">
-            <h1 id="logo" class="navbar-brand" href="#">W.</h1>
-
+            <h1 id="logo" class="navbar-brand">W.</h1>
             <ul id="list-items" class="nav justify-content-end">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -56,108 +47,14 @@
         </nav>
       </div>
     </header>
-    <!--end header section-->
-
-
-
-      <div class="navbar bg-base-100">
-        <div class="flex-1">
-          <a class="btn btn-ghost text-xl">daisyUI</a>
-        </div>
-        <div class="flex-none">
-          <ul class="menu menu-horizontal px-1">
-            <li><a>Link</a></li>
-            <li>
-              <details>
-                <summary>Parent</summary>
-                <ul class="bg-base-100 rounded-t-none p-2">
-                  <li><a>Link 1</a></li>
-                  <li><a>Link 2</a></li>
-                </ul>
-              </details>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </header>
-
-    <!-- THE HIGHLIGHT CARDS WITH THE NUMBERS STARTS HERE -->
-    <div class="itemcard">
-      <div class="itemcard__body">
-        <img
-          src="./images/image-retro-pcs.jpg"
-          alt="retro pc"
-          class="itemcard__picture"
-        />
-        <div class="itemcard__content">
-          <h1 class="itemcard__figure">01</h1>
-          <h2 class="itemcard__title">Revolving Retro PCs</h2>
-          <p class="itemcard__text">
-            What happens when old PCs are given modern upgrades?
-          </p>
-        </div>
-      </div>
-      <div class="itemcard__body">
-        <img
-          src="./images/image-top-laptops.jpg"
-          alt="laptop top"
-          class="itemcard__picture"
-        />
-        <div class="itemcard__content">
-          <h1 class="itemcard__figure">02</h1>
-          <h2 class="itemcard__title">Top 10 Laptops of 2022</h2>
-          <p class="itemcard__text">
-            Our best picks for various needs and budgets.
-          </p>
-        </div>
-      </div>
-      <div class="itemcard__body">
-        <img
-          src="./images/image-gaming-growth.jpg"
-          alt="laptop top"
-          class="itemcard__picture"
-        />
-        <div class="itemcard__content">
-          <h1 class="itemcard__figure">03</h1>
-          <h2 class="itemcard__title">The Growth of Gaming</h2>
-          <p class="itemcard__text">
-            How the pandemic has sparked fresh opportunities.
-          </p>
-        </div>
-      </div>
-    </div>
-    <!-- HIGHLIGHT CARDS WITH THE NUMBERS ENDS HERE -->
-
-
-
-    <!-- begining of right side bar -->
-    <div class="right-sidebar">
-      <div class="sidebarbg">
-        <h3>New</h3>
-        <h4>Hydrogen VS Electric cars</h4>
-        <p>Will Hydrogen-fueled cars ever catchup to EVs?</p>
-        <hr />
-        <h4>The Downsides of AI Artistry</h4>
-        <p>
-          What are the possible adverse effects of on-demand AI image
-          generation?
-        </p>
-        <hr />
-        <h4>Is VC Funding Drying Up?</h4>
-        <p>
-          Private funding by VC firms is down 50% YOY. We take a look at what
-          that means
-        </p>
-      </div>
-    </div>
-    <!--END OF RIGHT SIDE BAR-->
 
     <main class="container">
       <div class="main-content">
+        <!-- right side bar starts here -->
         <div class="featured-article">
-          <img src="./images/advice.jpg" alt="" />
+          <img src="./images/advice.jpg" alt="Colorful 3D shapes" />
           <div class="article-content">
-            <h1>The Bright Future of Web 3.0?</h1>
+            <h2>The Bright Future of Web 3.0?</h2>
             <div class="article-text">
               <p>
                 We dive into the next evolution of the web that claims to put
@@ -168,73 +65,80 @@
             </div>
           </div>
         </div>
+        <!-- right side bar end here -->
+         <!-- left side bar starts here -->
+        <div class="right-sidebar">
+          <h2>New</h2>
+          <div class="sidebar-item">
+            <h3>Hydrogen VS Electric Cars</h3>
+            <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+          </div>
+          <hr />
+          <div class="sidebar-item">
+            <h3>The Downsides of AI Artistry</h3>
+            <p>
+              What are the possible adverse effects of on-demand AI image
+              generation?
+            </p>
+          </div>
+          <hr />
+          <div class="sidebar-item">
+            <h3>Is VC Funding Drying Up?</h3>
+            <p>
+              Private funding by VC firms is down 50% YOY. We take a look at
+              what that means.
+            </p>
+          </div>
+        </div>
       </div>
-    <footer>  <!--Footer By David -->
-      <div class="flex flex-wrap justify-between">
-        <section class="w-full md:w-1/3 p-2">
-          <div class="hero bg-base-200 min-h-32">
-            <div class="hero-content flex-col lg:flex-row">
-              <img
-                src="./caraousel/man-8106958_640.png"
-                class="w-32 h-32 object-cover rounded-lg shadow-md"
-                alt="Reviving Retro PCs"
-              />
-              <div>
-                <h1 class="text-xl font-bold">01</h1>
-                <p class="py-1">
-                  <b>Reviving Retro PCs</b>
-                </p>
-                <p class="py-1">
-                  What happens when old PCs are given modern upgrades 
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
+      <!-- left side bar ends here -->
 
-        <section class="w-full md:w-1/3 p-2">
-          <div class="hero bg-base-200 min-h-32">
-            <div class="hero-content flex-col lg:flex-row">
-              <img
-                src="./caraousel/home-office-569153_1280.jpg"
-                class="w-32 h-32 object-cover rounded-lg shadow-md"
-                alt="Top 10 Laptops of 2022"
-              />
-              <div>
-                <h1 class="text-xl font-bold">02</h1>
-                <p class="py-1">
-                <b>Top 10 Laptops of 2022</b>
-                </p>
-                <p class="py-1">
-                Our Best picks for various needs and budgets 
-                </p>
-              </div>
-            </div>
+      <!-- item card start here -->
+      <div class="itemcard">
+        <div class="itemcard__body">
+          <img
+            src="./images/image-retro-pcs.jpg"
+            alt="retro pc"
+            class="itemcard__picture"
+          />
+          <div class="itemcard__content">
+            <h2 class="itemcard__figure">01</h2>
+            <h3 class="itemcard__title">Revolving Retro PCs</h3>
+            <p class="itemcard__text">
+              What happens when old PCs are given modern upgrades?
+            </p>
           </div>
-        </section>
-
-        <section class="w-full md:w-1/3 p-2">
-          <div class="hero bg-base-200 min-h-32">
-            <div class="hero-content flex-col lg:flex-row">
-              <img
-                src="./caraousel/lcd-32872_1280.png"
-                class="w-32 h-32 object-cover rounded-lg shadow-md"
-                alt="The Growth of Gaming"
-              />
-              <div>
-                <h1 class="text-xl font-bold">03</h1>
-                <p class="py-1">
-                  <b>The Growth of Gaming </b>
-                </p>
-                <p class="py-1">
-                  How the pandemic has sparked fresh opportunities 
-                </p>
-              </div>
-            </div>
+        </div>
+        <div class="itemcard__body">
+          <img
+            src="./images/image-top-laptops.jpg"
+            alt="laptop top"
+            class="itemcard__picture"
+          />
+          <div class="itemcard__content">
+            <h2 class="itemcard__figure">02</h2>
+            <h3 class="itemcard__title">Top 10 Laptops of 2022</h3>
+            <p class="itemcard__text">
+              Our best picks for various needs and budgets.
+            </p>
           </div>
-        </section>
+        </div>
+        <div class="itemcard__body">
+          <img
+            src="./images/image-gaming-growth.jpg"
+            alt="gaming controller"
+            class="itemcard__picture"
+          />
+          <div class="itemcard__content">
+            <h2 class="itemcard__figure">03</h2>
+            <h3 class="itemcard__title">The Growth of Gaming</h3>
+            <p class="itemcard__text">
+              How the pandemic has sparked fresh opportunities.
+            </p>
+          </div>
+        </div>
+        <!-- item cards end here -->
       </div>
-    </footer>
     </main>
   </body>
 </html>
