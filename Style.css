@@ -1,0 +1,20 @@
+/*begininng of header section*/
+
+.navbar {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .container-fliud {
+  }
+  #logo {
+    font-family: "DM Serif Display", serif;
+    font-weight: 600;
+    font-size: 50px;
+  }
+  
+  .nav-link {
+    color: gray;
+  }
+  /*end of header section*/
+  
