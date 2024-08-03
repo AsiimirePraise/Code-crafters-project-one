@@ -1,3 +1,4 @@
+
 /* Begining of Right side bar section */
 
 .right-sidebar {
@@ -29,3 +30,88 @@ hr {
   margin-bottom: 20px;
 }
 /* Begining of Right side bar section */
+
+
+/*begininng of header section*/
+.navbar {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#logo {
+  font-family: "DM Serif Display", serif;
+  font-weight: 600;
+  font-size: 50px;
+}
+
+.nav-link {
+  color: gray;
+}
+/*end of header section*/
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.featured-article {
+  flex: 2;
+}
+
+.featured-article h1 {
+  font-size: 40px;
+  margin: 20px 0;
+}
+
+.read-more {
+  background-color: #f15e50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  align-self: flex-start;
+}
+
+.main-content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.featured-article img {
+  width: 100%;
+  height: auto;
+}
+
+.featured-article .article-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.featured-article h1 {
+  font-size: 40px;
+  margin: 0;
+}
+
+.article-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+
+
+
