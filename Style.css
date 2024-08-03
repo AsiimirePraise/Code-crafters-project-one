@@ -1,3 +1,21 @@
+
+/*begininng of header section*/
+.navbar {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#logo {
+  font-family: "DM Serif Display", serif;
+  font-weight: 600;
+  font-size: 50px;
+}
+
+.nav-link {
+  color: gray;
+}
+/*end of header section*/
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -59,6 +77,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
 }
+
 
 
 
