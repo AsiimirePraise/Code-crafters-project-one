@@ -16,7 +16,6 @@ body {
   padding: 20px 0;
 }
 
-/* HIGHLIGHT CARDS ENDS HERE */
 #logo {
   font-weight: 800;
   font-size: 48px;
@@ -30,11 +29,11 @@ body {
 /* Main content styles */
 .main-content {
   display: grid;
-  grid-template-columns: 2fr 1fr;/* added two columns*/
+  grid-template-columns: 2fr 1fr;/* created two columns*/
   gap: 30px;
   margin-bottom: 60px;
 }
-
+/* header right starts from here */
 .featured-article img {
   width: 100%;
   height: auto;
@@ -78,6 +77,7 @@ body {
   cursor: pointer;
   align-self: flex-start;
 }
+/* header ends here */
 
 /* Right sidebar styles */
 .right-sidebar {
@@ -88,7 +88,9 @@ body {
 
 .right-sidebar h2 {
   color: #e9ab53;
-  font-size: 36px; 
+  font-size: 36px;
+  margin-top: 0;
+  margin-bottom: 30px;
 }
 
 .sidebar-item h3 {
@@ -107,7 +109,7 @@ body {
   border-top: 1px solid #5d5f79;
   margin: 30px 0;
 }
-
+/* side bar ends here */
 /* Item card styles */
 .itemcard {
   display: grid;
@@ -151,4 +153,3 @@ body {
   line-height: 1.5;
   margin: 0;
 }
-/* item card styles end here */
